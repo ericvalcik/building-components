@@ -5,6 +5,9 @@ export default function Preview() {
   return (
     <section className={theme}>
       <div className="flex flex-col gap-3 @sm:flex-row">
+        <Badge outline variant="base" rounded="md">
+          Hello Base
+        </Badge>
         <Badge outline variant="neutral" rounded="md">
           Hello Neutral
         </Badge>

@@ -76,9 +76,28 @@ export const pastel = createTheme(tokens, {
   rounded: "6px",
 });
 
+export const crazy = createTheme(tokens, {
+  bg: {
+    base: "rgb(0,255,80)",
+    neutral: "rgb(199,199,199)",
+    primary: "rgb(255,0,249)",
+    secondary: "rgb(25,152,255)",
+    accent: "rgb(255,22,22)",
+  },
+  text: {
+    base: "rgb(48, 48, 48)",
+    neutral: "rgb(27, 35, 39)",
+    primary: "rgb(42, 39, 42)",
+    secondary: "rgb(46, 40, 41)",
+    accent: "rgb(37, 45, 42)",
+  },
+  rounded: "6px",
+});
+
 export const themes = [
   { label: "Default", value: defaultTheme },
   { label: "Bumblebee", value: bumblebee },
   { label: "Emerald", value: emerald },
   { label: "Pastel", value: pastel },
+  { label: "Crazy", value: crazy },
 ];

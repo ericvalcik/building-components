@@ -49,8 +49,8 @@ export const badge = recipe({
         outline: true,
       },
       style: {
-        color: bg.base,
-        borderColor: bg.base,
+        color: bg.accent,
+        borderColor: bg.accent,
       },
     },
     {

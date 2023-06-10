@@ -5,11 +5,14 @@ export default function Preview() {
   return (
     <section className={theme}>
       <div className="flex flex-col gap-3 @sm:flex-row">
+        <Badge variant="base" rounded="full">
+          Hello Base
+        </Badge>
         <Badge variant="neutral" rounded="full">
           Hello Neutral
         </Badge>
         <Badge variant="primary" rounded="full">
-          Hello Primarty
+          Hello Primary
         </Badge>
         <Badge variant="secondary" rounded="full">
           Hello Secondary

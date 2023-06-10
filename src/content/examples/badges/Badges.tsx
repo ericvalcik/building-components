@@ -5,6 +5,7 @@ export default function Preview() {
   return (
     <section className={theme}>
       <div className="flex flex-col gap-3 @sm:flex-row">
+        <Badge variant="base">Hello Base</Badge>
         <Badge variant="neutral">Hello Neutral</Badge>
         <Badge variant="primary">Hello Primary</Badge>
         <Badge variant="secondary">Hello Secondary</Badge>
